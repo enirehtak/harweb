@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>button</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/estilo.css" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery.js"></script>
+    </head>
+    <body>
+        <header>
+        <nav class="  navbar navbar-default" role="navigation">
+            <div class="container">
+               <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Desplegar navegación</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <h1>JQUERY</h1>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                        <ul class="nav navbar-nav  pull-right">
+                            <li><a href="#">CONTACT</a></li>
+                            <li class="active"><a href="#">PORTFOLIO</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        </header>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-jg-6 col-md-6 col-xs-12">
+                    <i class=" pull-left glyphicon glyphicon-envelope"></i>
+                        <p>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="col-jg-6 col-md-6 col-xs-12">
+                     <i class=" pull-left glyphicon glyphicon-film"></i>
+                        <p>&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="row center">
+                  <button class="btn btn-primary btn-lg" id="btnprimary">JQUERY</button>
+        		</div>
+            </div>
+        </section>
+         <script type="text/javascript">
+             $("#btnprimary").click(function() {
+                alert("Hola Mundo!");
+               }); 
+       	</script>
+    </body>
+</html>
